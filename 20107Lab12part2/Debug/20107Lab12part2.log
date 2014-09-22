@@ -1,0 +1,42 @@
+﻿Build started 4/15/2014 4:19:50 PM.
+     1>Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\20107Lab12part2\20107Lab12part2\20107Lab12part2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp StackEmptyException.cpp StackOverflowException.cpp stackclass.cpp
+         stackclass.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.h(13): error C2143: syntax error : missing ';' before 'for'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(5): error C2084: function 'stackclass::stackclass(int)' already has a body
+                 c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.h(9) : see previous definition of '{ctor}'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(18): error C3861: 'StackOverflowException': identifier not found
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(24): error C2039: 'pop' : is not a member of '`global namespace''
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(24): error C2199: syntax error : found 'pop (' at global scope (was a declaration intended?)
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(24): error C2059: syntax error : ')'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(25): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.cpp(25): error C2447: '{' : missing function header (old-style formal list?)
+         StackOverflowException.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(4): error C2653: 'StackOverflowException' : is not a class or namespace name
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(6): warning C4508: 'StackOverflowException' : function should return a value; 'void' return type assumed
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(9): error C2653: 'StackOverflowException' : is not a class or namespace name
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(9): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         StackEmptyException.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(6): error C2059: syntax error : '{'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(8): error C2065: 'cout' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(8): error C2065: 'endl' : undeclared identifier
+         Source.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackclass.h(13): error C2143: syntax error : missing ';' before 'for'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(6): error C2059: syntax error : '{'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(6): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(8): error C2065: 'cout' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackemptyexception.h(8): error C2065: 'endl' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(4): error C2653: 'StackOverflowException' : is not a class or namespace name
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(6): warning C4508: 'StackOverflowException' : function should return a value; 'void' return type assumed
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(9): error C2653: 'StackOverflowException' : is not a class or namespace name
+     1>c:\users\fallaha\desktop\compsci\computer science programs\20107lab12part2\20107lab12part2\stackoverflowexception.cpp(9): fatal error C1903: unable to recover from previous error(s); stopping compilation
+         Generating Code...
+     1>Done Building Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\20107Lab12part2\20107Lab12part2\20107Lab12part2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.11

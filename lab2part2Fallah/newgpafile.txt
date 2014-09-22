@@ -1,0 +1,8 @@
+	Name	Gpa
+	Charles	1.2
+	Claude	2.9
+	Fallah	4.5
+	James	3.9
+	Jennifer	4
+	Margaret	3.5
+	Werner	1.8

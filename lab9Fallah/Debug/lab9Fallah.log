@@ -1,0 +1,67 @@
+﻿Build started 3/18/2014 1:50:21 PM.
+     1>Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\lab9Fallah\lab9Fallah\lab9Fallah.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt list.cpp main.cpp node.cpp
+         node.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.cpp(31): error C2039: 'print' : is not a member of 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.cpp(33): error C2065: 'data' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.cpp(35): error C2563: mismatch in formal parameter list
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.cpp(36): error C2227: left of '->print' must point to class/struct/union/generic type
+         main.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(11): error C2065: 'list' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(11): error C2146: syntax error : missing ';' before identifier 'll'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(11): error C2065: 'll' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(13): error C2065: 'll' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(13): error C2228: left of '.push_front' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(16): error C2065: 'll' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(28): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(30): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(31): error C2248: 'Node::data' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(13) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(13) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(34): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(39): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(44): error C2248: 'Node::data' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(13) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(13) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(46): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(47): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(48): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(52): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(53): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(54): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(59): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\main.cpp(64): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(14) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\lab9fallah\lab9fallah\node.h(7) : see declaration of 'Node'
+         list.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\lab9Fallah\lab9Fallah\lab9Fallah.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:04.20

@@ -1,0 +1,270 @@
+﻿Build started 3/24/2014 2:16:02 PM.
+     1>Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\AF_Lab9_extracredit\AF_Lab9_extracredit\AF_Lab9_extracredit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt List.cpp Node.cpp main.cpp
+         main.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C2143: syntax error : missing ',' before '&'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2039: 'ptr' : is not a member of 'std::iterator'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(328) : see declaration of 'std::iterator'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'head' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'n' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2061: syntax error : identifier 'node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2227: left of '->next' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'n' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(13): error C2679: binary '<<' : no operator found which takes a right-hand operand of type 'List' (or there is no acceptable conversion)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(695): could be 'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(742): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(780): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const char *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(827): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,char)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(953): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const signed char *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(960): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,signed char)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(967): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const unsigned char *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(974): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,unsigned char)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(984): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>,List>(std::basic_ostream<_Elem,_Traits> &&,const _Ty &)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ty=List
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(1101): or       'std::basic_ostream<_Elem,_Traits> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(201): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ostream<_Elem,_Traits> &(__cdecl *)(std::basic_ostream<_Elem,_Traits> &))'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(207): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_ios<_Elem,_Traits> &(__cdecl *)(std::basic_ios<_Elem,_Traits> &))'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(214): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(221): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::_Bool)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(241): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(short)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(275): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned short)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(295): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(int)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(320): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned int)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(340): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(360): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned long)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(381): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(__int64)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(401): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(unsigned __int64)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(422): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(float)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(442): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(double)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(462): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(long double)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(482): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(const void *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\ostream(502): or       'std::basic_ostream<_Elem,_Traits> &std::basic_ostream<_Elem,_Traits>::operator <<(std::basic_streambuf<_Elem,_Traits> *)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 while trying to match the argument list '(std::basic_ostream<_Elem,_Traits>, List)'
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(25): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(27): warning C4390: ';' : empty controlled statement found; is this the intent?
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(28): error C2248: 'Node::data' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(14) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(14) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(31): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(36): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(41): error C2248: 'Node::data' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(14) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(14) : see declaration of 'Node::data'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(43): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(44): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(45): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(49): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(50): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(51): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(56): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\main.cpp(61): error C2248: 'Node::next' : cannot access private member declared in class 'Node'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(15) : see declaration of 'Node::next'
+                 c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(8) : see declaration of 'Node'
+         Node.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C2143: syntax error : missing ',' before '&'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2039: 'ptr' : is not a member of 'std::iterator'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(328) : see declaration of 'std::iterator'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'head' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'n' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2061: syntax error : identifier 'node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2227: left of '->next' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'n' : undeclared identifier
+         List.cpp
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.h(21): error C2143: syntax error : missing ',' before '&'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(41): error C2039: 'ptr' : is not a member of 'std::iterator'
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\xutility(328) : see declaration of 'std::iterator'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(42): error C2065: 'head' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'node' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2065: 'n' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(43): error C2061: syntax error : identifier 'node'
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'p' : undeclared identifier
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2227: left of '->next' must point to class/struct/union/generic type
+                 type is ''unknown-type''
+     1>c:\users\fallaha\desktop\compsci\computer science programs\af_lab9_extracredit\af_lab9_extracredit\node.cpp(44): error C2065: 'n' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\fallaha\Desktop\Compsci\Computer Science programs\AF_Lab9_extracredit\AF_Lab9_extracredit\AF_Lab9_extracredit.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.61
